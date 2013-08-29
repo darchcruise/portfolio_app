@@ -1,7 +1,9 @@
 PortfolioApp::Application.routes.draw do
   root :to => redirect("/portfolios")
   resources :portfolios
-
+  get "/resume" => "portfolios#resume"
+  get "/contact" => "portfolios#contact"
+  get "/about" => "portfolios#about"
 
 #          root        /                              :controller#:action
 #     portfolios GET    /portfolios(.:format)          portfolios#index
