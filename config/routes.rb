@@ -1,4 +1,17 @@
 PortfolioApp::Application.routes.draw do
+  root :to => redirect("/portfolios")
+  resources :portfolios
+
+
+#          root        /                              :controller#:action
+#     portfolios GET    /portfolios(.:format)          portfolios#index
+#                POST   /portfolios(.:format)          portfolios#create
+#  new_portfolio GET    /portfolios/new(.:format)      portfolios#new
+# edit_portfolio GET    /portfolios/:id/edit(.:format) portfolios#edit
+#      portfolio GET    /portfolios/:id(.:format)      portfolios#show
+#                PUT    /portfolios/:id(.:format)      portfolios#update
+#                DELETE /portfolios/:id(.:format)      portfolios#destroy
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -1,0 +1,100 @@
+body {
+  background-color: black;
+  margin: auto;
+
+}
+
+.header {
+  margin: 20px;
+  padding: 40px;
+  background-image: url("/assets/banner.png");
+}
+
+#name {
+  color: white;
+  font-size: 30px;
+  margin-left: 50px;
+  float: left
+}
+
+#port {
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+  float: left
+}
+
+#navigation li {
+        display: block;
+        float: left;
+}
+
+#navigation li a {
+        text-shadow: 0 2px 1px rgba(0,0,0,0.5);
+        display: block;
+        text-decoration: none;
+        color: white;
+        font-size: 1.6em;
+        margin-left: 250px;
+}
+
+#navigation li a:hover {
+        margin-top: 2px;
+}
+
+ul#grid {
+  padding: 50px;
+  list-style: none;
+  margin: 100px auto 0;
+  width: 900px;
+  height: 400px;
+  /*border: 1px solid red;
+  overflow: auto;*/
+  }
+
+#grid li {
+  float: left;
+  padding: 40px;
+  margin: 50px 50px 50px 50px;
+  width: 70px;
+  height: 70px;
+  /*border: 1px solid red;
+  overflow: auto;*/
+  }
+
+
+#grid li img {
+  background-color: white;
+  padding: 0px; margin: 0;
+  border: 1px dotted #58595b;
+  width: 100px;
+  height: 100px;
+  }
+
+#grid li a:hover img {
+opacity:0.3; filter:alpha(opacity=30);
+}
+
+
+.two {
+  color: white;
+  width: 500px;
+  margin-left: 10px;
+  padding: 50px;
+  text-align: center;
+  margin: auto;
+}
+
+.footer {
+  color: white;
+  font-size: 20px;
+  background-image: url("/assets/banner.png");
+  padding: 30px;
+  text-align: center;
+  width: 1500px;
+  margin-top:100px;
+  position: absolute;
+
+}
+
+
