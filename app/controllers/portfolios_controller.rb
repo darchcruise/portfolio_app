@@ -2,24 +2,19 @@ class PortfoliosController < ApplicationController
   # GET /portfolios
   # GET /portfolios.json
   def index
-    @portfolios = Portfolio.all
 
-    respond_to do |format|
-      format.html # index.html.erb
-      format.json { render json: @portfolios }
-    end
   end
 
   def resume
-    @portfolios = Portfolio.all
+
   end
 
   def about
-    @portfolios = Portfolio.all
+
   end
 
   def contact
-    @portfolios = Portfolio.all
+
   end
 
 
