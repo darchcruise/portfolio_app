@@ -5,6 +5,15 @@ PortfolioApp::Application.routes.draw do
   get "/contact" => "portfolios#contact"
   get "/about" => "portfolios#about"
 
+
+  get "/architecture" => "portfolios#architecture"
+  get "/proforma" => "portfolios#proforma"
+  get "/drone" => "portfolios#drone"
+  get "/adventure_game" => "portfolios#adventure_game"
+  get "/big_data" => "portfolios#big_data"
+  get "/dna_helix" => "portfolios#dna_helix"
+
+
 #          root        /                              :controller#:action
 #     portfolios GET    /portfolios(.:format)          portfolios#index
 #                POST   /portfolios(.:format)          portfolios#create
