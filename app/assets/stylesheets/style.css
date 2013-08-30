@@ -96,25 +96,33 @@ opacity:0.3; filter:alpha(opacity=30);
   padding: 10px;
 }
 
+
+
+
+
+
+
+
 /*icons links - pic and app description*/
 
 .pic_title {
   color: white;
-  font-size: 15px;
+  font-size: 25px;
   width: 400px;
-  margin: 55px 0px 0px 525px;
-  padding: 0px;
+  margin: 50px 0px 0px 635px;
+  padding: 20px;
 }
 
 .pic {
-  margin: 100px 100px 100px 100px;
+  margin: 35px 100px 100px 450px;
+  padding: 0px;
 }
 
 .pic_description {
   color: white;
   font-size: 15px;
   width: 400px;
-  margin: -55px 0px 0px 525px;
+  margin: -55px 0px 0px 580px;
   padding: 0px;
 }
 
